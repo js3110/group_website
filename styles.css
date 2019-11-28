@@ -22,8 +22,13 @@ img {
      margin: 0 auto;
      border-radius: 430px;
 }
+<<<<<<< HEAD
 carousel-item {
   width: 500px;
+=======
+.carousel-item {
+  width: 200px;
+>>>>>>> 78e420038b633d475da4cf1571e1d201e92d4c23
 }
 p{
 width: 80%;
