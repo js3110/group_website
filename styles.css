@@ -2,7 +2,7 @@ body {
 color: #FFA500;
 font-family: cursive;
 margin: 0px;
-background-color: #FA8072
+background-color: #FFA500
 }
 div {
      min-height: 10vh;
@@ -21,6 +21,9 @@ img {
      padding: 20px;
      margin: 0 auto;
      border-radius: 430px;
+}
+carousel-item {
+  width: 200px;
 }
 p{
 width: 80%;
