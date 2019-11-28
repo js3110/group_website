@@ -22,7 +22,7 @@ img {
      margin: 0 auto;
      border-radius: 430px;
 }
-carousel-item {
+.carousel-item {
   width: 200px;
 }
 p{
