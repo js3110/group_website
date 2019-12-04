@@ -69,3 +69,15 @@ transition: 0.6s ease;
 li:hover {
      font-size: 1.2em;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.carousel-caption {
+  font-family: arial, sans-serif;
+  justify-content: center;
+  color: black;
+
+}
