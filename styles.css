@@ -28,7 +28,7 @@ h3 { font-size: 2.5em;
 img {
      display: block;
      padding: 20px;
-     margin: 0 auto;
+     margin: 0;
      border-radius: 430px;
      width: 500px;
      align: flex;
@@ -45,15 +45,14 @@ a{
 color: rgb(0,0,0);
 }
 ol {
-<ol>
-padding: 0;
-margin-bottom: 20%;
-font-size: 0.5em;
-width: 20px;
-display: auto;
-text-align: center;
-justify-content: space-evenly;
-}
+
+  padding: 0;
+  margin-bottom: 20%;
+  font-size: 0.5em;
+  display: auto;
+  text-align: center;
+  justify-content: space-evenly;
+  }
 li#lower {
      margin-top: 7%;
 } li#lowest {
@@ -62,25 +61,25 @@ li#lower {
 div.contrast {
      background-color: rgb(0,0,0);
      color: rgb(255,255,255);
-display: flex;
+     display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
 }
 ul {
-     list-style: <ul>;
+   list-style: none;
    text-align: center;
    list-style-position: inside;
    display: auto;
 }
 li {
      margin: 10px;
-     display auto;
+     display flex;
+     justify-content: center;
      font-size: 1.5em;
      text-align: center;
 }
-transition: 0.6s ease;
-}
+
 li:hover {
      font-size: 1.2em;
 }
@@ -91,7 +90,15 @@ li:hover {
   justify-content: center;
   }
 .container {
-  display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+.carousel-item img {
+  width: 50vh;
+  height: auto;
+}
+
+.topRecipes {
+  width: 100%;
 }
