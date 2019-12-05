@@ -14,7 +14,11 @@ h1, h2, h3 {
      font-size: 5em;
 }
 h2 {
-     font-size: 2.5em;
+     font-size: 3em;
+     color: #FF1234;
+}
+h3 { font-size: 2.5em;
+
 }
 img {
      display: block;
@@ -36,15 +40,13 @@ a{
 color: rgb(0,0,0);
 }
 ol {
-
+<ol>
 padding: 0;
 margin-bottom: 20%;
-font-size: 1em;
-width: auto;
-display: block;
+font-size: 0.5em;
+width: 20px
+display: auto;
 text-align: center;
-
-display: flex;
 justify-content: space-evenly;
 }
 li#lower {
@@ -62,13 +64,14 @@ display: flex;
 }
 ul {
      list-style: <ul>;
-     display:
-     text-align: center;
+   text-align: center;
+   list-style-position: inside;
+   display: auto;
 }
 li {
      margin: 10px
-     display: inline;
-     font-size: 1em;
+     display auto;
+     font-size: 1.5em;
      text-align: center;
 }
 transition: 0.6s ease;
