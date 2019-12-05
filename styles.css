@@ -85,5 +85,12 @@ li:hover {
      font-size: 1.2em;
 }
 #button {
-  color: #FF1234
+  color: #FF1234;
+  display: flex;
+  justify-content: center;
   }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
