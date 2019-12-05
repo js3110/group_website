@@ -21,10 +21,11 @@ img {
      padding: 20px;
      margin: 0 auto;
      border-radius: 430px;
+     width: 500px;
+     align: flex;
+     justify-content: center;
 }
-.carousel-item {
-  width: 200px;
-}
+
 p{
 width: 80%;
 text-align: center;
